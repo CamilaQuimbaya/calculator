@@ -5,7 +5,8 @@ color: #fff;
 
 body{
     margin: 0;
-    background-color: #3b2a33 ;
+    
+    background-image:url(img/ice-cream-pattern-wallpaper-contemporary-light-blue-85639609.jpg);
 }
 
 .container{
@@ -15,14 +16,14 @@ body{
     height: 100vh;
 }
 
-.calculator{
+.calculator{    
   display: grid;
   grid-template-columns: repeat(4, 75px);
   grid-template-rows: 160px repeat(5, 75px);
   background-color: #9E2A5A;
   padding: 15px;
   border-radius: 40px;
-  box-shadow: 15px 10px 12px 5px #241b21, -1px -3px 10px 1px #f58eb9ad;
+  box-shadow: 10px 10px 43px 5px #47213b;
 }
 button{
     cursor: pointer;
@@ -31,7 +32,7 @@ button{
     border-radius: 40px;
     font-size: 1.5em;
     border: none;
-    background-color: #bb2b67;
+    background-color: #af3266;
     box-shadow: 5px 5px 10px -3px #251d2398, -5px -5px 20px 1px #d34a83;
 
 }

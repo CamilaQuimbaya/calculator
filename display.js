@@ -45,9 +45,9 @@ class Display{
         const valueAfter = this.valueAfter = parseFloat(this.valueAfter)
 
         if(isNaN(valueAfter) || isNaN(valueBefore) ) return
-        this.valueAfter = calculat[this.typeOperation(valueBefore, valueAfter)]
+        this.valueAfter = this.calculator[this.typeOperation](valueBefore, valueAfter)
     }
-    
+  
 
 }
 
